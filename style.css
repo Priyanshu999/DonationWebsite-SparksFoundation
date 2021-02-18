@@ -1,0 +1,283 @@
+*{  
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 120px;
+    background-color: #fff !important;
+    padding-right: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-collapse{
+}
+
+.nav-brand h3{
+    font-weight: 100px !important;
+}
+
+.navbar-nav{
+    padding-right: 10% !important;
+    width: 80%;
+    margin-left: 30% !important;
+    margin-right: 15% !important;
+}
+
+.btn-success{
+    background-color: #09cc7f !important;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 20px 60px 20px 60px !important;
+    font-size: larger !important;
+}
+
+.nav-item{
+    padding: 0 10px 0 10px;
+    margin: 3%;
+}
+
+.nav-item a{
+ 
+    color: #072366 !important;
+}
+
+.nav-item a:hover{
+    color: #09cc7f !important;
+}
+
+.home{
+    margin-top: 120px;
+}
+
+.front{
+    padding-left: 100px;
+    margin-top: 110px;
+    float: left;
+}
+
+.slogan{
+    color: #002d5b;
+    font-size: 80px;
+}
+
+.sub-slogan{
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.slogan-1{
+    display: block;
+}
+
+.image-slogan{
+    
+    float: right;
+    width: 50%;
+    height: 500px;;
+    background-image: url("images/slogan-image.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.lower-donate{
+       
+}
+
+.About{
+    background-color: #f8fcff !important;
+    width: 100%;
+    /* border: 1px solid blue; */
+    margin-top: 300px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.ece{
+    color: #09cc7f;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.hc3{
+    color: #072366;    
+}
+
+.container-1{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.container-1 p{
+    text-align: justify;
+}
+
+.container-1 div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    width: 30%;
+    
+}
+
+.container-1 h1{
+    padding-top: 25px;
+    font-size: 25px;
+}
+
+.current{
+    color: white;
+    background: #09cc7f;
+}
+
+.non-current{
+    
+    background-image: linear-gradient(to left,
+    transparent,
+    transparent 50%,
+    #09cc7f 50%,
+    #09cc7f);
+  background-position: 99.8% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+}
+
+.non-current:hover{
+    color: white !important;
+    background-position: 0 0;
+    color:#333;
+  }
+
+  .container-1 img{
+      height: 200px;;
+  }
+  
+.change{
+    margin-left: 10%;
+    margin-right: 10%;
+    background: url("images/volunteer-image.jpg") no-repeat;
+    background-size: cover;
+    background-color: #09cc7f;
+    background-attachment: fixed;
+    height: 220px;
+    margin-top: 250px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.change p{
+    margin-left: 10%;
+    /* margin-top: 5%; */
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    float: left;
+}
+
+.color{
+    padding-top: 5%;
+    height: 220px;
+    background: #09cc7f;
+    opacity: 0.8;
+    z-index: 10;
+}
+
+.mylink{
+    font-size: 20px;
+    float: right;
+    margin-top: 1%;
+    margin-right: 5%;
+    padding: 20px 10px 20px 10px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to left,
+    transparent,
+    transparent 50%,
+    #09cc7f 50%,
+    #09cc7f);
+    background-position: 99.8% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+}
+
+.mylink:hover{
+    color: white !important;
+    background-position: 0 0;
+    color:#333;    
+}
+
+.workers{
+    background: #f8fcff;
+    width: 100%;
+    margin-top: 250px;
+    text-align: center;
+    justify-content: center;
+}
+
+.workers p{
+    font-size: 20px;
+    color:  #09cc7f;
+}
+
+.workers h1{
+    color: 
+}
+
+.workers h1{
+    color: #072366;
+}
+
+.peoples{
+    /* border: 2px solid black;; */
+    margin-top: 50px;
+    display: flex !important;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+
+    /* padding-left: 10%; */
+}
+
+.peoples div{
+    overflow: hidden;
+    /* border: 2px solid red;; */
+    /* height: 400px;
+    width: 20%; */
+}
+
+.peoples img{
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 400px;
+    transition: transform .5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+
+}
+
+.peoples div:hover img {
+    filter: grayscale(0);
+  transform: scale(1.065);
+    
+  }
+
+  .footer{
+      color: white;
+      background: #010A1F;
+      text-align: center;
+      width: 100%;
+      margin-top: 350px;
+  }
+
+  .peoples h4{
+      padding-top: 20px;;
+  }
+
+  .peoples p{
+      font-size: 17px;
+  }
