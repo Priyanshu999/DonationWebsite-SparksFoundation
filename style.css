@@ -281,3 +281,18 @@
   .peoples p{
       font-size: 17px;
   }
+
+  .donation-page{
+      text-align: center;
+      background: url("images/background.jpg");
+      background-color: rgba(0, 0, 0, 0.2);
+  }
+
+
+
+  .donation-h{
+      margin-top: 15%;
+      margin-left: 1%;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+

@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Donation Page</title>
 </head>
-<body>
-    <h1>Donation</h1>
-    <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_GcG6pLid4EV3LE/view" data-text="Pay Now" data-color="#528FF0" data-size="large">
-        <script>
-          (function(){
-            var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
-            if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
-            s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
-            rzp && rzp.init && rzp.init()}})();
-        </script>
-      </div>
+<body class="donation-page">
+    <h1 class="donation-h">You Are Now One Step Closer To Make Someone Smile</h1>
+    <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_GdA7uet8XlV1Yt/view" data-text="Donate" data-color="#528FF0" data-size="large">
+      <script>
+        (function(){
+          var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+          if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+          s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+          rzp && rzp.init && rzp.init()}})();
+      </script>
+    </div>
           
 </body>
 </html>
